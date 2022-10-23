@@ -1,7 +1,7 @@
 
 import Head from 'next/head'
-import { Hero } from './components/Hero'
-import { Main } from './components/Main'
+import Hero from './components/Hero'
+import Main  from './components/Main'
 import {useState} from 'react'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
 import {FaRebel} from 'react-icons/fa'

@@ -1,7 +1,8 @@
 import React from 'react'
-import { Card1, Card2, Card3 } from './Card'
+import Card1 from './Card'
+import {Card2, Card3 } from './Card'
 
-export const Main = () => {
+export default function Main (){
   return (
     <section>
         <div className='dark:text-white'>

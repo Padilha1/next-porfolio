@@ -4,7 +4,7 @@ import NLW from '../../public/NLW.png'
 import S4 from '../../public/S4.png'
 
 
-export const Card1 = () => {
+export default function Card1 (){
   return (
     <div className='text-center shadow-lg p-10 rounded-xl my-10 lg:text-lg dark:shadow-[#352D39]'>
         <div className='border-white'>

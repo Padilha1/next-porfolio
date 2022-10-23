@@ -4,7 +4,7 @@ import {AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import Image from 'next/image'
 import logo from '../../public/business-3d.png'
 
-export const Hero = () => {
+export default function Hero (){
   const [darkMode, setDarkMode] = useState(false);
   return (
     <section className= 'min-h-screen '>        
