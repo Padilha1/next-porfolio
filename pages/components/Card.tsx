@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import NLW from '../../public/NLW.png'
-import S4 from '../../public/s4.png'
+import S4 from '../../public/S4.png'
 
 
 export const Card1 = () => {
