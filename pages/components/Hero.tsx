@@ -37,7 +37,7 @@ export const Hero = () => {
 
       <div className='relative mx-auto bg-gradient-to-b from-purple-900 rounded-full w-60 h-60 mt-20 overflow-hidden md:h-96 md:w-96
       '>
-        <Image src={logo} layout="responsive" objectFit='cover'/>
+        <Image src={logo} layout="responsive" objectFit='cover' alt=""/>
       </div>
     </section>
   )

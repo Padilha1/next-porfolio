@@ -8,7 +8,7 @@ export const Card1 = () => {
   return (
     <div className='text-center shadow-lg p-10 rounded-xl my-10 lg:text-lg dark:shadow-[#352D39]'>
         <div className='border-white'>
-            <a href=""><Image src={S4} width={300} height={150}/></a>
+            <a href=""><Image src={S4} width={300} height={150} alt=""/></a>
         </div>
         <h3 className='text-xl font-semibold pt-7 pb-2 border-b-4 border-purple-700'>S4 Treinamentos website</h3>
         <p className='py-2'>Created a SPA to S4 Treinamentos company, showing their courses/trainings and their history.
@@ -27,7 +27,7 @@ export const Card1 = () => {
 export const Card2 = () => {
     return (
         <div className='text-center shadow-lg p-10 rounded-xl my-10 lg:text-lg dark:shadow-[#352D39]' >
-            <a href=""><Image src={NLW} width={300} height={150}/></a>
+            <a href=""><Image src={NLW} width={300} height={150} alt=""/></a>
             <h3 className='text-xl font-semibold pt-7 pb-2 border-b-4 border-purple-700'>NLW eSports web application</h3>
             <p className='py-2 max-w-5xl'>Created a web application where you create/post an AD to find someone to play together.
             You choose the game, pick the day you play and after you can see the ADs created per Game.</p>
