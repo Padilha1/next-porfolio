@@ -42,7 +42,7 @@ export const Card2 = () => {
 
 export const Card3 = () => {
     return (
-        <div className=' text-center flex justify-center items-center shadow-lg p-10 rounded-xl mb-10 lg:text-lg dark:shadow-[#352D39]' >
+        <div className=' text-center flex justify-center items-center shadow-lg p-10 rounded-xl my-10 lg:text-lg dark:shadow-[#352D39]' >
             <a href=""></a>
             <h3 className='text-xl font-semibold pt-7 pb-2 border-b-4 border-purple-700'>More to come...</h3>
             {/* <p className='py-2 max-w-5xl'>Created a web application where you create/post an AD to find someone to play together.

@@ -18,8 +18,8 @@ export default function Home() {
         <link rel="icon" href="/icons8-sigma-50.png" />
       </Head>
 
-      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[#141401]'>
-        <nav className='py-7 mb-12 flex justify-between dark:bg-[#141301]'>
+      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[#000501]'>
+        <nav className='py-7 mb-12 flex justify-between dark:bg-[#000501]'>
             <h1 className='text-xl font-burtons dark:text-white'>Developed by Padilha</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill className='cursor-pointer text-2xl dark:text-white' 
