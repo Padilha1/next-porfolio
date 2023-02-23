@@ -72,7 +72,7 @@ export const Card3 = () => {
             <h4 className='py-4 text-purple-600 font-semibold'>Tools I used</h4>
             <p className='text-gray-800 py-1 dark:text-slate-200'> React.js, Typescript and Tailwind</p>
             <p className='text-gray-800 py-1 dark:text-slate-200'>Zod | Prisma | Fastify </p>
-            <p className='text-gray-800 py-1 dark:text-slate-200'>Vite</p>
+            <p className='text-gray-800 py-1 dark:text-slate-200'>Next</p>
 		</div>
 	);
 };
