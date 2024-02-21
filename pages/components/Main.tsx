@@ -1,4 +1,3 @@
-import React from "react";
 import Card1 from "./Card";
 import { Card2, Card3 } from "./Card";
 
@@ -16,13 +15,13 @@ export default function Main() {
 					<span className="text-purple-500">
 						<strong>Software Engineering</strong>
 					</span>{" "}
-					and am in 4º year. Taking everyday to get better, both personally and
+					and am in 5º year. Taking everyday to get better, both personally and
 					professionally.
 				</p>
 				<p className="text-md py-2 leading-6 text-gray-800 md:text-lg lg:text-xl dark:text-gray-200">
 					Currently I`m focused on Frontend with tools such as React.Js,
-					Typescript and others (Styled Components, Tailwind, Vite...).{" "}
-					<br></br>I have some knowledge apart with database such as PostgreSQL.
+					Typescript and others (Styled Components, Tailwind, Vite, Node.js...).{" "}
+					<br></br>I have some knowledge apart with database such as PostgreSQL and MySQL.
 					I want to work as{" "}
 					<span className="text-purple-500">
 						<strong>Frontend Developer</strong>
@@ -30,7 +29,7 @@ export default function Main() {
 					, because I really like creating new stuff other people can see |
 					watch | debate | discuss inside a website or web application. I`ve
 					been studying English (Advanced) and German(Basic) and own experience
-					with International teams and Data management.
+					with International teams.
 				</p>
 			</div>
 			<div className=" md:text-xl dark:text-white">

@@ -1,14 +1,13 @@
 import Image from "next/image";
-import React from "react";
 import NLW from "../../public/NLW.png";
-import NLWS from "../../public/nlwSetup.png";
+import CRUD from "../../public/CrudQualidade.png";
 import S4 from "../../public/S4.png";
 
 export default function Card1() {
 	return (
 		<div className="text-center shadow-lg p-10 rounded-xl my-10 lg:text-lg dark:shadow-[#352D39]">
 			<div className="border-white">
-				<a href="">
+				<a href="https://s4treinamentos.com.br/">
 					<Image src={S4} width={300} height={150} alt="" />
 				</a>
 			</div>
@@ -16,23 +15,23 @@ export default function Card1() {
 				S4 Treinamentos website
 			</h3>
 			<p className="py-2">
-				Created a SPA to S4 Treinamentos company, showing their
-				courses/trainings and their history. Also a form to contact using
-				email.js.
+				Created a website to S4 Treinamentos company, showing their
+				courses/trainings and their history. There is a form to contact and a
+				new login page.
 			</p>
 			<h4 className="py-4 text-purple-600 font-semibold">Tools I used</h4>
 			<p className="text-gray-800 py-1 dark:text-slate-200">
 				React.Js and Typescript
 			</p>
 			<p className="text-gray-800 py-1 dark:text-slate-200">
-				Radix and Keen Slider
+				Radix | Keen Slider | Tailwind | Node.js | Email.js
 			</p>
 			<p className="text-gray-800 py-1 dark:text-slate-200">Vite</p>
 		</div>
 	);
 }
 
-export const Card2 = () => {
+export const Card3 = () => {
 	return (
 		<div className="text-center shadow-lg p-10 rounded-xl my-10 lg:text-lg dark:shadow-[#352D39]">
 			<a href="https://nlw-ignite-esports.vercel.app/">
@@ -59,20 +58,28 @@ export const Card2 = () => {
 	);
 };
 
-export const Card3 = () => {
+export const Card2 = () => {
 	return (
 		<div className=" text-center  shadow-lg p-10 rounded-xl my-10 lg:text-lg dark:shadow-[#352D39]">
-			<a href="https://nwlsetupadilha.vercel.app/">
-				<Image src={NLWS} width={300} height={150} alt="" />
+			<a href="https://crudcomqualidadep.vercel.app/">
+				<Image src={CRUD} width={300} height={150} alt="" />
 			</a>
 			<h3 className="text-xl font-semibold pt-7 pb-2 border-b-4 border-purple-700">
-				NLW Setup - Habits
+				Crud com Qualidade
 			</h3>
-			<p className='py-2 max-w-5xl'>Created a web application where you create an habit and its recurrency choosing the days you want.</p>
-            <h4 className='py-4 text-purple-600 font-semibold'>Tools I used</h4>
-            <p className='text-gray-800 py-1 dark:text-slate-200'> React.js, Typescript and Tailwind</p>
-            <p className='text-gray-800 py-1 dark:text-slate-200'>Zod | Prisma | Fastify </p>
-            <p className='text-gray-800 py-1 dark:text-slate-200'>Next</p>
+			<p className="py-2 max-w-5xl">
+				Created a fullstack application, a todo list where you add animes you`ve
+				watched and finished clicking on them. First time using Cypress and CI/CD (Used for Study)
+			</p>
+			<h4 className="py-4 text-purple-600 font-semibold">Tools I used</h4>
+			<p className="text-gray-800 py-1 dark:text-slate-200">
+				{" "}
+				React.js, Node.js and Supabase
+			</p>
+			<p className="text-gray-800 py-1 dark:text-slate-200">
+				Cypress | Tailwind | CI/CD{" "}
+			</p>
+			<p className="text-gray-800 py-1 dark:text-slate-200">Next</p>
 		</div>
 	);
 };
